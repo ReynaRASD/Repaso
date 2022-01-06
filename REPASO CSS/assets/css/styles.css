@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Shadows+Into+Light&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: rgb(173, 12, 160);
+    height: 50px; 
+
+}
+
+.menu ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.menu .elemento{
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+}
+.elemento {
+display: inline;
+margin: 0 20px;
+/* esto es para ocupar los 4 margenes
+superior
+inferior
+izquierda
+derecha
+*/
+}
+
+.elemento a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    /* Centra texto */
+    transition: color 3s;
+
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.elemento a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu .elemento:hover{
+    background-color: rgb(70, 70, 70);
+}

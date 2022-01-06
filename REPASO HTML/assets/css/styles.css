@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+}
+
+table, tr, th, td {
+    border: 1px solid black
+}
+
+table {
+    width: 400px;
+}
+
+.enlace{
+    
+    background-color: rgb(43, 198, 226);
+    width: 50px;
+    height: 50px;
+
+}
+
+#bloque{
+
+    background-color: rgb(112, 223, 61);
+}
